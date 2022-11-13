@@ -22,7 +22,7 @@ app.get("/fyh", (req, res, next)=> {
 
 
 app.all("/", (req, res, next)=> {
-    res.send(`Estoy en el metodo ALL DE EXPRESS`)
+    res.send(`Estoy en el metodo ALL DE EXPRES`)
 })
 
 app.listen(PORT, ()=> console.log(`Server on http://localhost:${PORT}`))

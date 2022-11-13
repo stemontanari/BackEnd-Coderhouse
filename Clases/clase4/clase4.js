@@ -8,7 +8,7 @@ function mostrarLetras(word, timer){
             counter ++;
         } else {
             fin();
-            clearInterval(mifunction);
+            clearInterval(mifunction)
         }
     }
 }
