@@ -1,0 +1,50 @@
+[
+  {
+    id: 1,
+    name: 'Jordan 1 Smoke Grey',
+    price: 180,
+    src: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/ae6422f2-bb84-402d-a48a-b9c02235b7ad/jordan-1-low-smoke-grey.jpg'
+  },
+  {
+    id: 2,
+    name: 'Jordan 1 High OG',
+    price: 320,
+    src: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/e5cf4ceb-b5f1-44cc-a250-357b153175d4/air-jordan-1-high-og.png'
+  },
+  {
+    id: 3,
+    name: 'Air Force 1',
+    price: 155,
+    src: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/0e3ae533-d28b-4f32-9aa6-a56c52599998/wmns-air-force-1-07-lx-our-force-1.png'
+  },
+  {
+    id: 4,
+    name: 'Jordan XXXVI Low',
+    price: 850,
+    src: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/299ed8f7-e412-44c8-9fcd-30c81f9e886a/air-jordan-xxxvi-low.png'
+  },
+  {
+    id: 5,
+    name: 'Dunk 1985 Yellow Acid',
+    price: 780,
+    src: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/301a1100-071a-4788-b06f-7ed0c219508b/nike-dunk-1985-yellow-acid-wash.png'
+  },
+  {
+    id: 6,
+    name: 'Jordan 3 Cardinal Red',
+    price: 620,
+    src: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_540,c_limit/ea9feb08-73c1-457f-8616-503960e09c15/air-jordan-3-retro-cardinal-red.png'
+  },
+  {
+    id: 7,
+    name: 'Jordan Mid ',
+    price: 195,
+    src: 'https://img01.ztat.net/article/spp-media-p1/cfc43f5b35ca43e69e35bc6c89586550/86daded655134c0ba55d7cdcc2535bf2.jpg?imwidth=1800&filter=packshot'
+  },
+  {
+    name: 'Jordan High Mocha',
+    price: 800,
+    src: 'https://sothebys-md.brightspotcdn.com/f4/e1/24ebed984bf58ba8e512f13d9e8d/424sneakers-bw5yk-03.jpg',
+    id: 8
+  }
+]

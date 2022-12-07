@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT</title>
+    <script src="./socket.io/socket.io.js"></script>
+</head>
+<body>
+    <h1>TUTORIAL DE SOCKET.IO</h1>
+    <input type="text" name="name" id="name">
+    <p id="parrafo"></p>
+</body>
+<script>    
+    let name = document.getElementById("name");
+    let parrafo = document.getElementById("parrafo");
+    let socket = io();
+    socket.on("init", data => {
+        console.log(`Me han enviado un mensaje desde el server --->`);
+        console.log(data);
+    });
+
+    name.addEventListener("keyup", evt => {
+        console.log(evt.target.value);
+        socket.emit("keyup", evt.target.value)
+    });
+
+    socket.on("fillP", data => {
+        parrafo.innerHTML = data;
+    });
+
+</script>
+</html>
